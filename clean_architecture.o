@@ -1,0 +1,45 @@
+todo_django/
+│
+├── todos/
+│   ├── domain/
+│   │   ├── entities/
+│   │   │   ├── todo.py
+│   │   │   └── category.py
+│   │   ├── repositories/
+│   │   │   ├── todo_repository_interface.py
+│   │   │   └── category_repository_interface.py
+│   │   └── use_cases/
+│   │       ├── todo_use_cases.py
+│   │       └── category_use_cases.py
+│   │
+│   ├── data/
+│   │   ├── migrations/
+│   │   ├── repositories/
+│   │   │   ├── todo_repository.py
+│   │   │   └── category_repository.py
+│   │   └── models/
+│   │       ├── todo_model.py
+│   │       └── category_model.py
+│   │
+│   └── views/
+│       ├── todo_views.py
+│       └── category_views.py
+│
+└── auth/
+    ├── domain/
+    │   ├── entities/
+    │   │   └── user.py
+    │   ├── repositories/
+    │   │   └── user_repository_interface.py
+    │   └── use_cases/
+    │       └── user_use_cases.py
+    │
+    ├── data/
+    │   ├── migrations/
+    │   ├── repositories/
+    │   │   └── user_repository.py
+    │   └── models/
+    │       └── user_model.py
+    │
+    └── views/
+        └── user_views.py
